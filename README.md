@@ -1,5 +1,6 @@
 # RTL-practice-projects
-Part of the '50 days of RTL' 
+Design and simulation files of a few digital modules I felt were important to code out.
+(Taken from '50 days of RTL coding' pdf)
 
 **Not yet complete**
 
