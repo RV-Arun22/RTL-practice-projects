@@ -62,7 +62,7 @@ module synchr_FIFO #(parameter width = 8, depth = 8)(
             else if (ren && !empty)
                 begin
                     data_out <= fifo[rptr];
-                    rptr <= rptr + 1'b1;        //count not updated here as a simultaneous read could occur
+                    rptr <= rptr + 1'b1;        //count not updated here as a simultaneous write could occur
                 end
         end
         
